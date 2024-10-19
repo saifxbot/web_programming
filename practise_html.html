@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Times Won't Wait</title>
+    <link rel="stylesheet" href="practise_css.css">
+    <script src='app.js'></script>
+</head>
+<body>
+    <div class="content-wrapper">
+        <h1 id="elem1">HTML PRACTISE</h1>
+        <h2>Heading 2</h2>
+        <hr>
+        <h3>Heading 3</h3>
+        <a href="https://www.youtube.com/watch?v=3a9fT3gWJlE">Get this song</a>
+
+        <ul>
+            <li>Torn Apart</li>
+            <li>Full of stars</li>
+        </ul>
+        <ol>
+            <li>Num1</li>
+            <li>Num2</li>
+        </ol>
+
+        <input type="text" name="ur_name" placeholder="Your Name">
+        <button>Click Here</button>
+        <hr>
+
+        <table>
+            <caption>Table </caption>
+            <thead>
+                <tr>
+                    <th>Title 1</th>
+                    <th>Title 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Cell 1</td>
+                    <td>Cell 2</td>
+                </tr>
+                <tr>
+                    <td>Cell 4</td>
+                    <td>Cell 5</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>This is a simple basic paragraph</p>
+        <p>English learners nowadays try hard to get grammar from the heart, but native speakers don’t always follow the rules or regulations in day-to-day conversation.</p>
+        
+        <img src="C:/Users/saifi/OneDrive - Vaasan ammattikorkeakoulu/Desktop/New folder/DSC_0874.NEF" alt="berry" class="image">
+        <hr>
+
+        <button id="btn1">Click Me</button>
+
+        <form action="submit_email.php" method="post" class="email-form">
+            <label for="sender">Sender Name:</label>
+            <input type="text" id="sender" name="sender" required>
+
+            <label for="email">Sender Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <fieldset>
+                <legend>Priority:</legend>
+                <label><input type="radio" name="priority" value="high" required> High</label>
+                <label><input type="radio" name="priority" value="medium"> Medium</label>
+                <label><input type="radio" name="priority" value="low"> Low</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Subscribe to:</legend>
+                <label><input type="checkbox" name="subscribe[]" value="news"> News</label>
+                <label><input type="checkbox" name="subscribe[]" value="updates"> Updates</label>
+                <label><input type="checkbox" name="subscribe[]" value="offers"> Offers</label>
+            </fieldset>
+
+            <label for="category">Category:</label>
+            <select id="category" name="category">
+                <option value="general">General</option>
+                <option value="feedback">Feedback</option>
+                <option value="support">Support</option>
+                <option value="other">Other</option>
+            </select>
+
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
